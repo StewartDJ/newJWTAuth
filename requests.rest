@@ -1,0 +1,24 @@
+GET http://localhost:3000/posts Authorization: Bearer 
+# rest client is broken can't finish this part
+
+###
+
+DELETE http://localhost:4000/logout Content-Type: application/json
+
+{ # "token": # rest client is broken can't finish this part
+ }
+
+###
+
+POST http://localhost:4000/token Content-Type: application/json
+
+{ # "token": # rest client is broken can't finish this part
+}
+
+###
+
+POST http://localhost:4000/login Content-Type: application/json
+
+{
+"username": "jim"
+}
